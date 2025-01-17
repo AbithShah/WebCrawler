@@ -35,6 +35,7 @@ WebCrawler provides an intuitive graphical interface for extracting clean, well-
 ## Usage
 
 1. **Single Page Crawling**:
+
    ![Single Page Crawler Interface](images/single-page-view.png)
    - Enter the URL of the page you want to crawl
    - Click Start
@@ -43,11 +44,13 @@ WebCrawler provides an intuitive graphical interface for extracting clean, well-
 
 2. **Multi-Page Crawling**:
    ![Multi-Page Crawler Interface](images/multi-page-view.png)
+
    - Enter the website's URL (sitemap.xml will be appended automatically)
    - Click Start
    - Max Concurrent Crwals upto 20
 
-3. **Successful Crawl Example
+3. **Successful Crawl Example**:
+
    ![Successful Crawl](images/success-page.png)
    - When crawling completes successfully, the Export button becomes active
    - Click Export to save your extracted content
@@ -61,7 +64,7 @@ This tool was developed to streamline the process of gathering web content for R
 
 This project builds upon and combines work from:
 - [crawl4ai](https://github.com/unclecode/crawl4ai) by unclecode - For the core web crawling functionality
-- Cole Medin [coleam00's Pydantic AI Documentation Crawler](https://github.com/coleam00/ottomator-agents/) - For sitemap crawling and documentation extraction features
+- [coleam00's Pydantic AI Documentation Crawler](https://github.com/coleam00/ottomator-agents/) - For sitemap crawling and documentation extraction features
 
 Built using:
 - PyQt6 for the graphical interface
@@ -69,7 +72,7 @@ Built using:
 
 Special thanks to:
 - The crawl4ai team for their excellent web crawling framework
-- Cole (coleam00) for the sitemap crawling implementation
+- Cole Medin (coleam00) for the sitemap crawling implementation
 
 ## Author
 
