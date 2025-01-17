@@ -43,6 +43,7 @@ WebCrawler provides an intuitive graphical interface for extracting clean, well-
 
 
 2. **Multi-Page Crawling**:
+
    ![Multi-Page Crawler Interface](images/multi-page-view.png)
 
    - Enter the website's URL (sitemap.xml will be appended automatically)
